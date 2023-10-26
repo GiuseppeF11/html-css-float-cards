@@ -13,12 +13,23 @@
             GENERAL       
 */
 
+ul {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+li {
+    padding-bottom: 3px;
+}
 /* 
             HEADER
 */
 
 .title {
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    
 }
 
 h1 {
@@ -34,3 +45,43 @@ h1 {
 /* 
             MAIN
 */
+.container {
+    border: 1px solid black;
+    width: 57%;
+    height: 500px;
+    margin: 0 auto;
+    color: white;
+}
+
+.container:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.card {
+    height: 70px;
+    width: calc(100% / 3 - 10px);
+    margin-right:10px;
+    margin-bottom:30px;
+    background-color: #0F0E17;
+    font-size: smaller;
+    float: left;
+}
+
+.card:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.container img {
+    float: left;
+    height: 70px;
+    padding-right: 10px;
+}
+
+.email{
+    color:#4A9AC8 ;
+    text-decoration: none;
+}
