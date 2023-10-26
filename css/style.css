@@ -10,19 +10,29 @@
 
 
 /* 
-            GENERAL       
+
+
+            GENERAL    
+            
+            
 */
 
 ul {
-    list-style-type: none;
+    list-style-type: none;  /* per togliere i pallini della lista */
     padding-top: 5px;
 }
 
 li {
     padding-bottom: 3px;
 }
+
+
 /* 
+
+
             HEADER
+
+
 */
 
 .title {
@@ -43,17 +53,20 @@ h1 {
 
 
 /* 
+
+
             MAIN
+
+            
 */
 .container {
-    border: 1px solid black;
-    width: 57%;
+    width: 60%;
     height: 500px;
     margin: 0 auto;
     color: white;
 }
 
-.container:after {
+.container:after {   /* Da fare per utilizzo float */
     content:"";
     display: table;
     clear: both;
@@ -61,8 +74,9 @@ h1 {
 
 .card {
     height: 70px;
-    width: calc(100% / 3 - 10px);
-    margin-right:10px;
+    width: calc(100% / 3 - 40px);
+    margin-right:20px;
+    margin-left: 20px;
     margin-bottom:30px;
     background-color: #0F0E17;
     font-size: smaller;
