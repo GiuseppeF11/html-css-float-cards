@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 
 
@@ -12,12 +13,22 @@
             GENERAL       
 */
 
-
-
 /* 
             HEADER
 */
 
+.title {
+    text-align: center;
+}
+
+h1 {
+    margin: 30px 0 ;
+    color: #E52E6E;
+}
+
+#subtitle{
+    margin: 30px 0;
+}
 
 
 /* 
